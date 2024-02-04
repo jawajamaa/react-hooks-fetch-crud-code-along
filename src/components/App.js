@@ -3,7 +3,7 @@ import ShoppingList from "./ShoppingList";
 import Header from "./Header";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   function handleDarkModeClick() {
     setIsDarkMode((isDarkMode) => !isDarkMode);
